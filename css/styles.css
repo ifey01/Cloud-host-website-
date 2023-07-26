@@ -357,11 +357,18 @@ a {
     font-weight: 300;
     letter-spacing: 1px;
     display: block;
+    position: relative;
+    left: 2rem;
+    bottom: -1rem;
 }
 
 .plan .list_item {
     margin-bottom: 2rem;
 }
+
+
+
+   
 
 @media screen and (min-width: 1024px) {
     .plan_name {
@@ -380,3 +387,4 @@ a {
 .plan_description {
     font-size: 1.7rem;
 }
+
