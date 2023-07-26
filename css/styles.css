@@ -400,3 +400,26 @@ a {
     font-size: 1.7rem;
 }
 
+
+/* Media */
+
+.media {
+    display: flex;
+}
+
+.media_title {
+    margin-top: 0;
+}
+
+.media_body {
+    margin: 0 2rem;
+}
+
+.media_image {
+    margin-top: 1rem;
+}
+
+h3 {
+    
+    margin: 0 0 3rem;
+}
