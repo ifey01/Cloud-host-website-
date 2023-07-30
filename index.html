@@ -14,22 +14,18 @@
     />
   </head>
   <body>
-    <header class="block__header">
-      <section class="block container">
-        <h2 class="block__heading">Heading</h2>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, quia?
-        </p>
-      <div class="container">
-        </section>
-        <section class="block block--dark block--skewed-left">
-          <h2 class="block__heading">Heading</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, quia?
-          </p>
-        </section>
-      </div>
-    </header>
+    <nav class="nav collapsible">
+      <a nav__brand href="/"><img src="images/logo.svg" alt="" /></a>
+      <svg class="icon icon--white nav__toggler">
+        <use xlink:href="images/sprite.svg#menu"></use>
+      </svg>
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="#"></a>Hosting</li>
+        <li class="nav__item"><a href="#"></a>VPS</li>
+        <li class="nav__item"><a href="#"></a>Domain</li>
+        <li class="nav__item"><a href="#"></a>Pricing</li>
+      </ul>
+    </nav>
     <script src="js/main.js"></script>
   </body>
 </html>
